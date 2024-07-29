@@ -27,6 +27,15 @@
     .banner_wrapper{
         padding: 200px 0;
     }
+    /* About  */
+    .about_wrapper ul.nav-pills{
+        width: 61%;
+        margin: auto;
+    }
+     /* Projects  */
+     .project_wrapper .card{
+        min-height: 400px;
+     }
 }
 @media(max-width:767px){
     /* Custom Css  */
@@ -40,6 +49,23 @@
     p{
         font-size: 13px;
         line-height: 24px;
+    }
+    /* About  */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
     }
 
 }
