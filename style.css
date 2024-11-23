@@ -10,15 +10,13 @@
 }
 :root {
   /* background Color  */
-  --primary-color: #fd4766;
-  /* --secondary-color: #0e1525; */
+  --primary-color: #8acff5;
   --secondary-color: #27619b;
+  --darkblue : #091020;
   --success-color:rgba(26, 149, 26, 0.882);
   --bg-dark-blue: #091020;
   --bg-white: #fff;
   --gray-color: #C6C6C6;
-  --gradient-color: linear-gradient(-224deg,var(--primary-color) 0, var(--success-color) 100%);
-  --gradient-text: linear-gradient(!20deg,#1c99fe 20.69%,#7644ff 50.19%,var(--primary-color) 79.69% );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr='var(--secondary-color)', GradientType=1 );
   /* Text Color  */
   --primary-font: "poppins", sans-serif;
@@ -60,8 +58,8 @@ section{
     transition: all 0.4s ease-in-out;
     padding: 10px 27px;
     background-color: transparent;
-    border: 2px solid var(--gray-color);
-    color: var(--text-gray);
+    border: 2px solid var(--bg-dark-blue);
+    color: var(--bg-dark-blue);
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
@@ -81,7 +79,7 @@ h1{
     margin-bottom: 20px;
 }
 h6 span{
-    color: var(--primary-color);
+    color: var(--bg-dark-blue);
 }
 h2{
     font-size: 50px;
@@ -204,6 +202,9 @@ transition: all .2s linear;
     background-position: center center;
     background-attachment: fixed;
     padding: 200px 0 100px 0;
+}
+.banner_wrapper h6{
+    color: var(--primary-color);
 }
 
 /* About Us  */
