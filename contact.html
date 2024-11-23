@@ -18,11 +18,12 @@
               <a class="navbar-brand" href="/index.html">Dakshata</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
+ 
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav menu_navbar_nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                    <a class="nav-link " aria-current="page" href="/index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="/About.html">About</a>
@@ -34,29 +35,58 @@
                     <a class="nav-link" href="/projects.html">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
-                  </li> 
+                    <a class="nav-link active" href="/contact.html">Contact</a>
+                  </li>
+                  
                 </ul>
               </div>
             </div>
           </nav>
      </header>
-    <!-- Banner section  -->
-     <section id="home" class="banner_wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center text-md-start">
-                    <h1>Dakshata Ramteke</h1>
-                    <h6>I'm a fresher <span>web Developer / MERN Developer </span></h6>
-                    <div class="mt-4">
-                        <a href="/DakshataRamteke.pdf" target="_blank" class="main_btn" onclick="alert('Downloaded Resume')">Download CV</a>
-                    </div>
+  
+  
+   
 
-                </div>
-            </div>
+   
+
+<!-- Contact  -->
+<section id="contact" class="contact_wrapper">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class=" mb-4 col-lg-6 order-2 order-lg-1 text-lg-start text-center">
+        <h2>Contact Us</h2>
+        <div class="row call_details">
+          <label for="" class="col-sm-3 col-lg-4">Call us directly:</label>
+          <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+            <a href="javascript:void(0)">+91 8484870974</a>
+          </div>
+          <label for="" class="col-sm-3 col-lg-4">Contact Email:</label>
+          <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+            <a href="mailto:dakshataramteke00@gmail.com">dakshataramteke00@gmail.com</a>
+          </div>
         </div>
-
-     </section>
+        <form action="">
+          <div class="mb-4">
+            <input type="text" class="form-control" placeholder="Your Name" autocomplete="off" required>
+          </div>
+          <div class="mb-4">
+            <input type="number" class="form-control" placeholder="Your Contact Number" autocomplete="off" required>
+          </div>
+          <div class="mb-4">
+            <input type="email" class="form-control" placeholder="Your Email" autocomplete="off" required>
+          </div>
+          <div class="mb-4">
+            <textarea name="" id="message" cols="40" rows="4" class="form-control" placeholder="Write a Message" autocomplete="off"></textarea>
+          </div>
+          <button type="submit" class="main_btn">Submit</button>
+        </form>
+      </div>
+      <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+        <img src="/assests/images/phonering.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="footer">
   <div class="container">

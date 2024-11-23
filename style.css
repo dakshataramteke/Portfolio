@@ -283,6 +283,9 @@ transition: all .2s linear;
 .project_wrapper .card:hover span{
     background-position: bottom center;
 }
+.project_wrapper .more_projects{
+    text-align: end;
+}
 /* Resume  */
 /* COntact  */
 .contact_wrapper .form-control,
