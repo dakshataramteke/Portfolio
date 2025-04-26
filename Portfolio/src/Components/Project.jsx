@@ -1,3 +1,4 @@
+
 import HeadPhone from '../assets/resumepr/project2.png';
 import Foodie from '../assets/resumepr/project3.png';
 import Spotify from '../assets/resumepr/project1.jpeg';
@@ -16,6 +17,7 @@ const Project = () => {
               <span className="subtitle">My Complete Projects</span>
               <h2>My Latest Project</h2>
               <p>I have created several projects on Frontend as well as backend</p>
+              <p className='mt-1'>Click on Cards to see about Projects</p>
             </div>
           </div>
           <div className="row">
@@ -27,7 +29,7 @@ const Project = () => {
               { img: HotelBooking, title: 'Hotel Booking', link: '/hotelbooking' },
             ].map((project, index) => (
               <div className="col-lg-3 col-md-6 mb-4" key={index}>
-                <div className="card p-0">
+                <Link to={project.link} className="card p-0" style={{ textDecoration: 'none' }}>
                   <span
                     className="project-image" // Add a class for styling
                     style={{
@@ -39,10 +41,8 @@ const Project = () => {
                       backgroundPosition: 'center',
                     }}
                   ></span>
-                  <Link to={project.link}>
-                    <h6 className="text-center">{project.title}</h6>
-                  </Link>
-                </div>
+                  <h6 className="text-center">{project.title}</h6>
+                </Link>
               </div>
             ))}
           </div>
@@ -50,11 +50,11 @@ const Project = () => {
           <div className="row mt-3">
             <h2 className='text-center text-md-start'>Full Stack Projects</h2>
             {[
-              { img: SMS, title: 'Student Management System', link: '/sms' },
+              { img: SMS, title: 'Student Management System', link: '/sms'},
               { img: Wanderlust, title: 'WanderLust', link: '/wanderlust' },
             ].map((project, index) => (
               <div className="col-lg-3 col-md-6 mb-4" key={index}>
-                <div className="card p-0">
+                <Link to={project.link} className="card p-0" style={{ textDecoration: 'none' }}>
                   <span
                     style={{
                       backgroundImage: `url(${project.img})`,
@@ -65,10 +65,8 @@ const Project = () => {
                       backgroundPosition: 'center',
                     }}
                   ></span>
-                  <Link to={project.link}>
-                    <h6 className="text-center">{project.title}</h6>
-                  </Link>
-                </div>
+                  <h6 className="text-center">{project.title}</h6>
+                </Link>
               </div>
             ))}
           </div>

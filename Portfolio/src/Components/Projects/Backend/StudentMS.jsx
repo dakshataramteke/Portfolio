@@ -3,7 +3,7 @@
 const StudentMS = () => {
   return (
     <>
-      <h2 className="mt-5">Comming Soon !</h2>
+      <h2 className="mt-5 text-center">Coming Soon !</h2>
     </>
   )
 }

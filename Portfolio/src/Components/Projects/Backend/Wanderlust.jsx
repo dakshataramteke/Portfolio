@@ -3,7 +3,7 @@
 const wanderlust = () => {
   return (
     <>
-      <h2 className="mt-5">Comming Soon !!</h2>
+      <h2 className="mt-5 text-center">Comming Soon !!</h2>
     </>
   )
 }

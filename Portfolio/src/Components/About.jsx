@@ -8,6 +8,9 @@ import { SiVitess } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { TbBracketsAngle } from "react-icons/tb";
+import { AiOutlineDeploymentUnit } from "react-icons/ai";
+import { FaGithub } from "react-icons/fa6";
+import { IoIosGitMerge } from "react-icons/io";
 
 const About = () => {
   return (
@@ -21,8 +24,8 @@ const About = () => {
             <div className="my-lg-0">
             
               <h2>About Me</h2>
-              <p>My Name is Dakshata Ramteke, I am originally from Nagpur, I have been passionate about Web Development / Mern Stack Development.</p>
-              <p>I am currently pursuing a Masters Degree in Computer Science and I have completed my Bachelors Degree in Computer Science. I have a good knowledge of frontend as well as backend Development. I specialize in MERN Stack Development. I have successfully completed OJT Training in React Js and also completed some projects. I am currently learning MERN Stack Development from Apna College.</p>
+              <p>My Name is Dakshata Ramteke, I am originally from Nagpur, I have been passionate about MERN Stack Development/ React JS Developer.</p>
+              <p>I am currently pursuing a Masters Degree in Computer Science and I have completed my Bachelors Degree in Computer Science. I have a good knowledge of frontend as well as backend Development. I specialize in MERN Stack Development. I have successfully completed OJT Training in React Js and also completed some projects. I have completed MERN Stack Development from Apna College with hands-on projects.</p>
             </div>
             <div className="pt-4">
               <ul className="nav nav-pills justify-content-center justify-content-lg-around mb-3" id="pills-tab" role="tablist">
@@ -38,6 +41,13 @@ const About = () => {
                
                 <div className="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
                   <ul className="text-start ps-0 list-unstyled">
+                  <li>
+                      <a href="#">
+                     MERN Stack Development -
+                        <span>Sky Vision IT Solutions</span>
+                      </a>
+                      Nov 2024 - Present
+                    </li>
                   <li>
                       <a href="#">
                       Web Development -
@@ -67,21 +77,21 @@ const About = () => {
                     <li >
                       <a href="#">
                         Master in Computer Science -
-                        <span className='text-end'> Prerna College, Nagpur</span>
+                        <span className='text-end'>S.C Gulhane Prerna College, Nagpur</span>
                       </a>
                       2023-2025
                     </li>
                     <li>
                       <a href="#">
                         Bachelor in Computer Science -
-                        <span> Shri Mathuradas Mohta College of Science</span>
+                        <span> Shri Mathuradas Mohta College of Science , Nagpur</span>
                       </a>
                       2017-2021
                     </li>
                     <li>
                       <a href="#">
                         Higher Secondary School - 
-                        <span>Dinanath Junior College</span>
+                        <span>Dinanath Junior College, Nagpur</span>
                       </a>
                       2016-2017
                     </li>
@@ -129,6 +139,21 @@ const About = () => {
           <div className="card ">
           <h4><SiMongodb/> <SiMysql/></h4>
           <h5>Mongo DB & SQL</h5>
+          </div>  
+        
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3 my-3">
+          <div className="card ">
+          <h4><IoIosGitMerge/> <FaGithub /></h4>
+          <h5>Git & GitHub</h5>
+          </div>  
+        
+          </div>
+          <div className="col-6 col-md-4 col-lg-3 my-3">
+          <div className="card ">
+          <h4><AiOutlineDeploymentUnit style={{fontSize:'2rem'}}/></h4>
+          <h5>Deployment</h5>
           </div>  
         
           </div>

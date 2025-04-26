@@ -1,5 +1,4 @@
-// import React from 'react'
-import headphoneing from '../../assets/resumepr/project2.png'
+
 import Headphonres from '../../assets/resumepr/Headphonres.png'
 const Headphone = () => {
   return (
@@ -8,14 +7,13 @@ const Headphone = () => {
         <h2 className="mt-5 text-center my-4">Headphone</h2>
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-              <div className="card">
-                <img src={headphoneing} alt="Headphone" className="card-img-top" />
-              </div>
-            </div>
-            <div className="col-sm-12 col-md-6 col-lg-8">
+            
+            <div className="col-sm-12  col-md-6 ">
             <img src={Headphonres} alt="" className='w-100 animate__animated animate__zoomIn' style={{borderRadius:'8px'}} />
-              <h3 className="card-title mt-5">Headphone Project</h3>
+             
+            </div>
+           <div className="col-sm-12 col-md-6 text-justify">
+           <h3 className="card-title mt-5">Headphone Project</h3>
               <p className="card-text">
                 I worked on a project to design and develop a wireless headphone system using HTML, CSS and Bootstrap. The system was designed to provide a comfortable listening experience for users, ensuring they can focus on their work without any interruptions.
               </p>
@@ -29,7 +27,7 @@ const Headphone = () => {
               <p>GitHub : <a href="https://github.com/dakshataramteke/ECommerce-HeadPhones" className='text-white' target='_blank'>Click Here</a></p>
               <p>Live : <a href="https://headphonesmusic.netlify.app/" className='text-white' target='_blank'>Click Here</a></p>
               </div>
-            </div>
+           </div>
             {/* <!-- end col --> */}
         </div>
         </div>

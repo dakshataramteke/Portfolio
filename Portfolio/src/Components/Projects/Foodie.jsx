@@ -1,17 +1,13 @@
 import Foodieimg from '../../assets/resumepr/foodie.png';
-import project3 from '../../assets/resumepr/project3.png';
+
 const Foodie = () => {
   return (
  <section>
          <h2 className="mt-5 text-center my-4">Foodie Website</h2>
          <div className="container">
            <div className="row">
-             <div className="col-sm-12 col-md-6 col-lg-4 mb-4">
-               <div className="card">
-                 <img src={project3} alt="Headphone" className="card-img-top" />
-               </div>
-             </div>
-             <div className="col-sm-12 col-md-6 col-lg-8">
+             
+             <div className="col-sm-12 offset-md-2 col-md-6 col-lg-8">
              <img src={Foodieimg} alt="" className='w-100 animate__animated animate__zoomIn' style={{borderRadius:'8px'}} />
                <h3 className="card-title mt-5">Foodie Website</h3>
                <p className="card-text">

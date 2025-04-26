@@ -1,6 +1,8 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import myresume from '../assets/DakshataMERN25.pdf'
+import { Link } from "react-router-dom";
 const Resume = () => {
   return (
     <>
@@ -53,7 +55,7 @@ const Resume = () => {
             <h3>Education</h3>
             <div className="col-md-8">
               <h5>MSC in Computer Science</h5>
-              <p>Dr. Gulhane Prerna College of Science </p>
+              <p>Dr. S.C Gulhane Prerna College of Science </p>
               <h5>BSC in Computer Science</h5>
               <p>Shri Mathuradas Mohta College of Science </p>
             </div>
@@ -66,10 +68,28 @@ const Resume = () => {
           </div>
           <hr />
           <div className="row">
+            <h3>Experience</h3>
+            <div className="col-md-8">
+              <h5>MERN Stack Developer</h5>
+              <p>Sky Vision IT Solution, Nagpur </p>
+              <p>
+              I am working hands-on projects on web development using the MERN stack, which comprises MongoDB,
+ Express.js, React.js, and Node.js. This experience not only enhanced my technical skills but also provided me with
+ valuable insights into the software development lifecycle and collaborative teamwork.
+              </p>
+              {/* <a href=""></a> */}
+            </div>
+            <div className="col-md-4">
+              <h5>Nov 24 - Present</h5>
+              <p></p>
+            </div>
+          </div>
+          <hr />
+          <div className="row">
             <h3>InternShip</h3>
             <div className="col-md-8">
               <h5>React JS (OJT)</h5>
-              <p>RSE IT Solution </p>
+              <p>RSE IT Solution, Nagpur </p>
               <p>
                 I completed hands-on OJT in React.js for industrial-level
                 projects, such as a student website. I built dynamic, responsive
@@ -79,7 +99,7 @@ const Resume = () => {
               {/* <a href=""></a> */}
             </div>
             <div className="col-md-4">
-              <h5>March 24 - May 24</h5>
+              <h5>Mar 24 - May 24</h5>
               <p></p>
             </div>
           </div>
@@ -90,14 +110,14 @@ const Resume = () => {
             <div className="col-md-12">
               <ul>
                 <li>
-                  <b>Frontend</b> : HTML, CSS, Bootstrap5, JavaScript, React Js/
+                  <b>Frontend</b> : HTML, CSS, Bootstrap5, JavaScript, React Js/ Tailwind CSS
                   Vite
                 </li>
                 <li>
-                  <b>Backend</b> : Node Js, Express Js
+                  <b>Backend</b> : Node Js, Express Js, MVC , Restful API
                 </li>
                 <li>
-                  <b>Database</b> : SQL , MongoDB, Mongoose
+                  <b>Database</b> : MY-SQL, MongoDB, Mongoose
                 </li>
                 
                 <li>
@@ -110,7 +130,7 @@ const Resume = () => {
                   <b>API Tools</b> : Postman API ,HoppScoth API
                 </li>
                 <li>
-                  <b>Deployment Tools</b> : Netlify , Vercel
+                  <b>Deployment Tools</b> : Netlify, Vercel, Github Pages
                 </li>
               </ul>
             </div>
@@ -119,23 +139,23 @@ const Resume = () => {
 
           <div className="row">
             <h3>Training & Certification</h3>
-            <div className="col-md-12">
+            <div className="col-md-10 d-md-flex justify-content-between">
               <h4>
                 Certified course in MERN Stack Developer from Apna College
               </h4>
-              <a href="https://www.linkedin.com/in/dakshata-ramteke-20689126a/overlay/1738057139682/single-media-viewer/?profileId=ACoAAEH7YOYBdGH5BMljJTTQ-gNSe_WoHWRtQdo" target="_blank" className="text-white">Certificate</a>
+              <a href="https://github.com/dakshataramteke/Portfolio/blob/main/Certificates/MERN%20Certificate.pdf" target="_blank" className="text-white">Certificate</a>
             </div>
           </div>
 
-          {/* <div className="mt-4">
-            <a
-              href="../assets/DakshataRamteke.pdf"
+          <div className="mt-4">
+            <Link
+              to={myresume}
               target="_blank"
               className="main_btn"
             >
               Download CV
-            </a>
-          </div> */}
+            </Link>
+          </div>
         </div>
       </section>
     </>
