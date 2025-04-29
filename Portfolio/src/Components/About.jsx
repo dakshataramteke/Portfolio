@@ -43,29 +43,29 @@ const About = () => {
                   <ul className="text-start ps-0 list-unstyled">
                   <li>
                       <a href="#">
-                     MERN Stack Development -
-                        <span>Sky Vision IT Solutions</span>
+                     MERN Stack Developer -
+                        <span >Sky Vision IT Solutions</span>
                       </a>
                       Nov 2024 - Present
                     </li>
                   <li>
                       <a href="#">
                       Web Development -
-                        <span>CodSoft</span>
+                        <span >CodSoft</span>
                       </a>
                       Jun 2024 - July 2024
                     </li>
                   <li>
                       <a href="#">
                         Process Associate -
-                        <span>DhanInfotech</span>
+                        <span >DhanInfotech</span>
                       </a>
                       Sept 2023-Nov 2023
                     </li>
                     <li>
                       <a href="#">
                         Teaching Assistance -
-                        <span>Disha Computer Institute</span>
+                        <span >Disha Computer Institute</span>
                       </a>
                       Jan 2022-Dec 2022
                     </li>
@@ -75,25 +75,39 @@ const About = () => {
                 <div className="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
                   <ul className="text-start ps-0 list-unstyled ">
                     <li >
-                      <a href="#">
+                    
+                    <a href='#'>
                         Master in Computer Science -
                         <span className='text-end'>S.C Gulhane Prerna College, Nagpur</span>
                       </a>
-                      2023-2025
+                    
+                      <a href='#'>
+                       CGPA : 7.2
+                        <span className='text-end ms-5'>  2023-2025</span>
+                      </a>
                     </li>
+                    <hr/>
                     <li>
                       <a href="#">
                         Bachelor in Computer Science -
-                        <span> Shri Mathuradas Mohta College of Science , Nagpur</span>
+                        <span > Shri Mathuradas Mohta College of Science , Nagpur</span>
                       </a>
-                      2017-2021
+                      <a href="#">
+                        67 %
+                        <span className='ms-5'>  2017-2021</span>
+                      </a>
+                    
                     </li>
                     <li>
                       <a href="#">
                         Higher Secondary School - 
                         <span>Dinanath Junior College, Nagpur</span>
                       </a>
-                      2016-2017
+                      <a href="#">
+                       59.38 % 
+                        <span className='ms-5'> 2016-2017</span>
+                      </a>
+                     
                     </li>
                   </ul>
                 </div>
@@ -111,40 +125,40 @@ const About = () => {
              <div className="col-6 col-md-4 col-lg-2 my-3 ">
              <div className="card p-2">
               <h4><FaHtml5 style={{fontSize:'3.25rem'}}/> </h4>
-              <h5 style={{fontSize:'0.825rem'}}>HTML5 </h5>
+              <h5 style={{fontSize:'0.875rem'}}>HTML5 </h5>
              </div>
              </div>
              <div className="col-6 col-md-4 col-lg-2 my-3 ">
              <div className="card p-2">
               <h4> <FaCss3  style={{fontSize:'3.25rem'}}/></h4>
-              <h5 style={{fontSize:'0.825rem'}}> CSS</h5>
+              <h5 style={{fontSize:'0.875rem'}}> CSS</h5>
              </div>
              </div>
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><IoLogoJavascript style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.825rem'}}>JavaScript</h5>
+          <h5 style={{fontSize:'0.875rem'}}>JavaScript</h5>
           </div>
          
           </div>
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><FaNodeJs style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.825rem'}}>Node JS</h5>
+          <h5 style={{fontSize:'0.875rem'}}>Node JS</h5>
           </div>
          
           </div>
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><RiReactjsFill style={{fontSize:'3.25rem'}}/> <SiVitess style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.825rem'}}>React Js/ Vite</h5>
+          <h5 style={{fontSize:'0.875rem'}}>React Js/ Vite</h5>
           </div>
          
           </div>
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><SiMongodb style={{fontSize:'3.25rem'}}/> <SiMysql style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.825rem'}}>Mongo DB & SQL</h5>
+          <h5 style={{fontSize:'0.875rem'}}>Mongo DB & MySQL</h5>
           </div>  
         
           </div>
@@ -152,21 +166,21 @@ const About = () => {
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><FaGithub style={{fontSize:'3.25rem'}} /></h4>
-          <h5 style={{fontSize:'0.825rem'}}>Git & GitHub</h5>
+          <h5 style={{fontSize:'0.875rem'}}>Git & GitHub</h5>
           </div>  
         
           </div>
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><AiOutlineDeploymentUnit style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.825rem'}}>Deployment</h5>
+          <h5 style={{fontSize:'0.875rem'}}>Deployment</h5>
           </div>  
         
           </div>
           <div className="col-6 col-md-4 col-lg-2 my-3">
           <div className="card p-2">
           <h4><TbBracketsAngle style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.825rem'}}>C & C++</h5>
+          <h5 style={{fontSize:'0.875rem'}}>C & C++</h5>
           </div>
         
           </div>

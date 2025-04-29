@@ -15,24 +15,24 @@ const Resume = () => {
                 <hr />
                 <h3>Dakshata Indravadan Ramteke</h3>
                 <h6>Phone: +91 8484870974 </h6>
-                <p>
+                <p >
                   <span >
                     {" "}
-                    <a href="mailto:dakshataramteke00@gmail.com" target="_blank" style={{color:'#fff'}}><IoMdMail style={{fontSize:'1.5rem'}} /></a>{" "}
+                    <a href="mailto:dakshataramteke00@gmail.com" target="_blank" style={{color:'#fff'}}><IoMdMail style={{fontSize:'1.75rem'}} /></a>{" "}
                   </span>{" "}
                   &nbsp;
                   |
                   &nbsp;
                   <span >
                     {" "}
-                    <a href="https://github.com/dakshataramteke" target="_blank" style={{color:'#fff'}}><FaGithub style={{fontSize:'1.5rem'}}/></a>{" "}
+                    <a href="https://github.com/dakshataramteke" target="_blank" style={{color:'#fff'}}><FaGithub style={{fontSize:'1.75rem'}}/></a>{" "}
                   </span>{" "}
                   &nbsp;
                   |
                   &nbsp;
                   <span >
                     {" "}
-                    <a href="https://www.linkedin.com/in/dakshata-ramteke-20689126a/" target="_blank" style={{color:'#fff', fontSize:'1.5rem'}}>
+                    <a href="https://www.linkedin.com/in/dakshata-ramteke-20689126a/" target="_blank" style={{color:'#fff', fontSize:'1.75rem'}}>
                     <FaLinkedin/>
                     </a>{" "}
                   </span>
@@ -105,32 +105,32 @@ const Resume = () => {
           </div>
           <hr />
 
-          <div className="row">
+          <div className="row skills_data">
             <h3>Skills</h3>
             <div className="col-md-12">
               <ul>
-                <li>
-                  <b>Frontend</b> : HTML, CSS, Bootstrap5, JavaScript, React Js/ Tailwind CSS
-                  Vite
+                <li >
+                  <b >Frontend</b> : &nbsp; HTML, &nbsp;CSS,  &nbsp;Bootstrap5,  &nbsp;JavaScript,  &nbsp;React Js/ 
+                  Vite , Tailwind CSS
                 </li>
                 <li>
-                  <b>Backend</b> : Node Js, Express Js, MVC , Restful API
+                  <b>Backend</b> : &nbsp; Node Js,  &nbsp;Express Js,  &nbsp;MVC ,  &nbsp;Restful API
                 </li>
                 <li>
-                  <b>Database</b> : MY-SQL, MongoDB, Mongoose
+                  <b>Database</b> : &nbsp; MY-SQL,  &nbsp;MongoDB,  &nbsp;Mongoose
                 </li>
                 
                 <li>
-                  <b>Programming Language</b> : C & C++
+                  <b>Programming Language</b> :  &nbsp;C & C++
                 </li>
                 <li>
-                  <b>Git Control</b> : Git & GitHub
+                  <b>Git Control</b> :  &nbsp;Git & GitHub
                 </li>
                 <li>
-                  <b>API Tools</b> : Postman API ,HoppScoth API
+                  <b>API Tools</b> : &nbsp; Postman API , &nbsp;HoppScoth API
                 </li>
                 <li>
-                  <b>Deployment Tools</b> : Netlify, Vercel, Github Pages
+                  <b>Deployment Tools</b> : &nbsp; Netlify,  &nbsp;Vercel,  &nbsp;Github Pages
                 </li>
               </ul>
             </div>
@@ -147,11 +147,12 @@ const Resume = () => {
             </div>
           </div>
 
-          <div className="mt-4">
+          <div className="mt-5 mt-md-4 d-flex justify-content-center justify-content-md-start ">
             <Link
               to={myresume}
               target="_blank"
-              className="main_btn"
+              className="main_btn" 
+              download={"DakshataMERN25.pdf"}
             >
               Download CV
             </Link>

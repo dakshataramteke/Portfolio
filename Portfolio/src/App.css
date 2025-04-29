@@ -65,9 +65,12 @@ section{
     letter-spacing: 2px;
     text-decoration: none;
 }
-.main_btn:hover{
+.main_btn{
     background-color: var(--primary-color);
     border-color: var(--primary-color);
+    color: var(--text-white);
+}
+.main_btn:hover{
     color: var(--text-white);
 }
 h1{
@@ -287,6 +290,7 @@ transition: all .2s linear;
 }
 .skill_Section .card:hover{
     background-color: var(--bg-purple);
+    color: var(--text-white);
 }
 
 /* Projects  */
@@ -312,6 +316,11 @@ transition: all .2s linear;
     text-align: end;
 }
 /* Resume  */
+.skills_data li{
+    color: var(--text-gray);
+}
+
+
 /* COntact  */
 .contact_wrapper .form-control,
 .contact_wrapper textarea{

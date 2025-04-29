@@ -1,6 +1,7 @@
 // import React from 'react';
 // import { FaGithub } from "react-icons/fa";
 // import { FaLinkedin } from "react-icons/fa6";
+
 // import { NavLink } from 'react-router-dom';
 const Home = () => {
   return (
@@ -16,18 +17,8 @@ const Home = () => {
               {/* <NavLink href="https://www.linkedin.com/in/dakshata-ramteke-20689126a/" className="bg-white fs-2 me-3"><FaLinkedin/></NavLink> */}
               </div>
               
-              {/* <button className='btn btn-success'>
-              <a
-                 href={'../assets/DakshataMERN25.pdf'}
-                  download="DakshataMERN25.pdf"
-                  target="_blank" 
-                 
-              >
-                  Download CV
-              </a>
-              </button> */}
-            
-
+           
+          
               
             </div>
           </div>

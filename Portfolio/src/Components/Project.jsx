@@ -4,7 +4,7 @@ import Foodie from '../assets/resumepr/project3.png';
 import Spotify from '../assets/resumepr/project1.jpeg';
 import HotelBooking from '../assets/resumepr/project4.png';
 import SMS from '../assets/resumepr/backend1.png'; // Corrected the double .png
-import Wanderlust from '../assets/resumepr/backend2.png';
+import Wanderlust from '../assets/resumepr/wanderlust.png';
 import Books from '../assets/resumepr/bookrest.png';
 import { Link } from 'react-router-dom'; // Import Link
 

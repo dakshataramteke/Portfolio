@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import Swal from 'sweetalert2';
 // import { CLoadingButton } from '@coreui/react-pro'; 
-import contact from '../assets/images/cont3.svg';
+import contact from '../assets/images/cont.png';
 import axios from 'axios';
 
 const Contact = () => {
