@@ -5,6 +5,7 @@ import Spotify from '../assets/resumepr/project1.jpeg';
 import HotelBooking from '../assets/resumepr/project4.png';
 import SMS from '../assets/resumepr/backend1.png'; // Corrected the double .png
 import Wanderlust from '../assets/resumepr/backend2.png';
+import Books from '../assets/resumepr/bookrest.png';
 import { Link } from 'react-router-dom'; // Import Link
 
 const Project = () => {
@@ -46,12 +47,35 @@ const Project = () => {
               </div>
             ))}
           </div>
-
+          <div className="row mt-3">
+            <h2 className='text-center text-md-start'>Backend Projects</h2>
+            {[
+              { img: Books, title: 'Rest API Books', link: '/books'},
+              { img: Wanderlust, title: 'WanderLust', link: '/wanderlust' },
+  
+            ].map((project, index) => (
+              <div className="col-lg-3 col-md-6 mb-4" key={index}>
+                <Link to={project.link} className="card p-0" style={{ textDecoration: 'none' }}>
+                  <span
+                    style={{
+                      backgroundImage: `url(${project.img})`,
+                      display: 'block',
+                      width: '100%',
+                      height: '350px', 
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                    }}
+                  ></span>
+                  <h6 className="text-center">{project.title}</h6>
+                </Link>
+              </div>
+            ))}
+          </div>
           <div className="row mt-3">
             <h2 className='text-center text-md-start'>Full Stack Projects</h2>
             {[
               { img: SMS, title: 'Student Management System', link: '/sms'},
-              { img: Wanderlust, title: 'WanderLust', link: '/wanderlust' },
+              {/* { img: Wanderlust, title: 'WanderLust', link: '/wanderlust' }, */}
             ].map((project, index) => (
               <div className="col-lg-3 col-md-6 mb-4" key={index}>
                 <Link to={project.link} className="card p-0" style={{ textDecoration: 'none' }}>

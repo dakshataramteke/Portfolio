@@ -12,8 +12,9 @@ import Foodie from "./Components/Projects/Foodie";
 import HotelM from "./Components/Projects/HotelM";
 import 'animate.css';
 import "./App.css";
-import StudentMS from "./Components/Projects/Backend/StudentMS";
-import Wanderlust from "./Components/Projects/Backend/Wanderlust";
+import Books from "./Components/Projects/Backend/Books";
+import Wanderlust from "./Components/Projects/MERN/Wanderlust";
+import StudentMS from "./Components/Projects/MERN/StudentMS";
 
 const App = () => {
   return (
@@ -30,9 +31,11 @@ const App = () => {
            <Route path="/headphone" element={<Headphone/>}/>
            <Route path="/spotify" element={<Spotify/>}/>
            <Route path="/foodie" element={<Foodie/>}/>
-           <Route path="/hotelbooking" element={<HotelM/>}/> 
+           <Route path="/hotelbooking" element={<HotelM/>}/>
+           <Route path="/books" element={<Books/>}/>  
            <Route path="/sms" element={<StudentMS/>}/> 
            <Route path="/wanderlust" element={<Wanderlust/>}/> 
+          
 
           <Route path="/contact" element={<Contact />} />
         </Routes>

@@ -1,6 +1,7 @@
 // import React from 'react';
-// import resume from '../assets/DakshataRamteke.pdf'; // Adjust the path as necessary
-// import { Link } from 'react-router-dom';
+// import { FaGithub } from "react-icons/fa";
+// import { FaLinkedin } from "react-icons/fa6";
+// import { NavLink } from 'react-router-dom';
 const Home = () => {
   return (
     <>
@@ -10,17 +11,24 @@ const Home = () => {
             <div className="col-sm-12 text-center text-md-start">
               <h1>Dakshata Ramteke</h1>
               <h6>I m a fresher <span style={{color:'#fff'}}> MERN Developer / React JS Developer</span></h6>
-              <div className="mt-4"></div>
+              <div className="mt-4">
+              {/* <NavLink href="https://github.com/dakshataramteke" className="bg-white fs-2 me-3"><FaGithub/></NavLink> */}
+              {/* <NavLink href="https://www.linkedin.com/in/dakshata-ramteke-20689126a/" className="bg-white fs-2 me-3"><FaLinkedin/></NavLink> */}
+              </div>
               
-              {/* <Link
-                  to={'../assets/DakshataRamteke.pdf'}
-                  onClick={() => alert('Downloaded Resume')} 
+              {/* <button className='btn btn-success'>
+              <a
+                 href={'../assets/DakshataMERN25.pdf'}
+                  download="DakshataMERN25.pdf"
                   target="_blank" 
-                  className="main_btn" 
-                  // download
+                 
               >
                   Download CV
-              </Link> */}
+              </a>
+              </button> */}
+            
+
+              
             </div>
           </div>
         </div>

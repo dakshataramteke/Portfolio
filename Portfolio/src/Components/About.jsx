@@ -108,59 +108,65 @@ const About = () => {
           <div className="col-12 col-lg-12 ">
           <h2 className='text-center text-md-start'>Skills</h2>
           <div className="row text-center">
-             <div className="col-6 col-md-4 col-lg-3 my-3 ">
-             <div className="card ">
-              <h4><FaHtml5/> <FaCss3 /></h4>
-              <h5>HTML5 & CSS</h5>
+             <div className="col-6 col-md-4 col-lg-2 my-3 ">
+             <div className="card p-2">
+              <h4><FaHtml5 style={{fontSize:'3.25rem'}}/> </h4>
+              <h5 style={{fontSize:'0.825rem'}}>HTML5 </h5>
              </div>
              </div>
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><IoLogoJavascript/></h4>
-          <h5>JavaScript</h5>
+             <div className="col-6 col-md-4 col-lg-2 my-3 ">
+             <div className="card p-2">
+              <h4> <FaCss3  style={{fontSize:'3.25rem'}}/></h4>
+              <h5 style={{fontSize:'0.825rem'}}> CSS</h5>
+             </div>
+             </div>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><IoLogoJavascript style={{fontSize:'3.25rem'}}/></h4>
+          <h5 style={{fontSize:'0.825rem'}}>JavaScript</h5>
           </div>
          
           </div>
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><FaNodeJs/></h4>
-          <h5>Node JS</h5>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><FaNodeJs style={{fontSize:'3.25rem'}}/></h4>
+          <h5 style={{fontSize:'0.825rem'}}>Node JS</h5>
           </div>
          
           </div>
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><RiReactjsFill/> <SiVitess/></h4>
-          <h5>React Js/ Vite</h5>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><RiReactjsFill style={{fontSize:'3.25rem'}}/> <SiVitess style={{fontSize:'3.25rem'}}/></h4>
+          <h5 style={{fontSize:'0.825rem'}}>React Js/ Vite</h5>
           </div>
          
           </div>
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><SiMongodb/> <SiMysql/></h4>
-          <h5>Mongo DB & SQL</h5>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><SiMongodb style={{fontSize:'3.25rem'}}/> <SiMysql style={{fontSize:'3.25rem'}}/></h4>
+          <h5 style={{fontSize:'0.825rem'}}>Mongo DB & SQL</h5>
           </div>  
         
           </div>
 
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><IoIosGitMerge/> <FaGithub /></h4>
-          <h5>Git & GitHub</h5>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><FaGithub style={{fontSize:'3.25rem'}} /></h4>
+          <h5 style={{fontSize:'0.825rem'}}>Git & GitHub</h5>
           </div>  
         
           </div>
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><AiOutlineDeploymentUnit style={{fontSize:'2rem'}}/></h4>
-          <h5>Deployment</h5>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><AiOutlineDeploymentUnit style={{fontSize:'3.25rem'}}/></h4>
+          <h5 style={{fontSize:'0.825rem'}}>Deployment</h5>
           </div>  
         
           </div>
-          <div className="col-6 col-md-4 col-lg-3 my-3">
-          <div className="card ">
-          <h4><TbBracketsAngle/></h4>
-          <h5>C & C++</h5>
+          <div className="col-6 col-md-4 col-lg-2 my-3">
+          <div className="card p-2">
+          <h4><TbBracketsAngle style={{fontSize:'3.25rem'}}/></h4>
+          <h5 style={{fontSize:'0.825rem'}}>C & C++</h5>
           </div>
         
           </div>
@@ -169,6 +175,7 @@ const About = () => {
           </div>
         </div>
       </div>
+    
     </section>
   );
 };

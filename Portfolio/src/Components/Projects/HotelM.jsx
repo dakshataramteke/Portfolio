@@ -1,5 +1,6 @@
 // import hotelimg from '../../assets/resumepr/project4.png';
 import hotelres from '../../assets/resumepr/Hotel.png';
+import BackButton from '../BackButton';
 
 const HotelM = () => {
   return (
@@ -28,6 +29,7 @@ const HotelM = () => {
           <p>GitHub : <a href="https://github.com/dakshataramteke/Hotel-For-Booking" className='text-white' target='_blank'>Click Here</a></p>
           <p>Live : <a href="https://dakshataramteke.github.io/Hotel-For-Booking/" className='text-white' target='_blank'>Click Here</a></p>
           </div>
+          <BackButton/>
         </div>
         {/* <!-- end col --> */}
     </div>

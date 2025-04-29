@@ -1,4 +1,5 @@
 import Spotifyimg from '../../assets/resumepr/project1.jpeg';
+import BackButton from '../BackButton';
 
 const Spotify = () => {
   return (
@@ -27,6 +28,7 @@ const Spotify = () => {
                  <p>GitHub : <a href="https://github.com/dakshataramteke/Spotify-Clone" className='text-white' target='_blank'>Click Here</a></p>
                  <p>Live : <a href="https://spotify-clone-xi-lilac.vercel.app/" className='text-white' target='_blank'>Click Here</a></p>
                  </div>
+                 <BackButton/>
                </div>
                {/* <!-- end col --> */}
            </div>

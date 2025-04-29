@@ -1,4 +1,5 @@
 import Foodieimg from '../../assets/resumepr/foodie.png';
+import BackButton from '../BackButton';
 
 const Foodie = () => {
   return (
@@ -23,6 +24,7 @@ const Foodie = () => {
                <p>GitHub : <a href="https://github.com/dakshataramteke/Food-Website" className='text-white' target='_blank'>Click Here</a></p>
                <p>Live : <a href="https://food-website-eta-swart.vercel.app/" className='text-white' target='_blank'>Click Here</a></p>
                </div>
+               <BackButton/>
              </div>
              {/* <!-- end col --> */}
          </div>
