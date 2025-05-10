@@ -1,7 +1,7 @@
 
 import HeadPhone from '../assets/resumepr/project2.png';
 import Foodie from '../assets/resumepr/project3.png';
-import Spotify from '../assets/resumepr/project1.jpeg';
+import DrAqua from '../assets/resumepr/project5.png';
 import HotelBooking from '../assets/resumepr/project4.png';
 import SMS from '../assets/resumepr/backend1.png'; // Corrected the double .png
 import Wanderlust from '../assets/resumepr/wanderlust.png';
@@ -25,7 +25,7 @@ const Project = () => {
             <h2 className='text-center text-md-start'>Frontend Projects</h2>
             {[
               { img: HeadPhone, title: 'HeadPhone Products', link: '/headphone' },
-              { img: Spotify, title: 'Spotify Clone', link: '/spotify' },
+              { img: DrAqua, title: 'Dr Aqua Galaxy', link: '/draqua' },
               { img: Foodie, title: 'Foodie Website', link: '/foodie' },
               { img: HotelBooking, title: 'Hotel Booking', link: '/hotelbooking' },
             ].map((project, index) => (

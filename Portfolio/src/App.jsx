@@ -7,7 +7,8 @@ import Contact from "./Components/Contact";
 import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Headphone from "./Components/Projects/Headphone";
-import Spotify from "./Components/Projects/Spotify";
+// import Spotify from "./Components/Projects/Spotify";
+import DrAqua from "./Components/Projects/DrAqua";
 import Foodie from "./Components/Projects/Foodie";
 import HotelM from "./Components/Projects/HotelM";
 import 'animate.css';
@@ -29,7 +30,8 @@ const App = () => {
        
            </Route>
            <Route path="/headphone" element={<Headphone/>}/>
-           <Route path="/spotify" element={<Spotify/>}/>
+           {/* <Route path="/spotify" element={<Spotify/>}/> */}
+           <Route path="/draqua" element={<DrAqua/>}/>
            <Route path="/foodie" element={<Foodie/>}/>
            <Route path="/hotelbooking" element={<HotelM/>}/>
            <Route path="/books" element={<Books/>}/>  

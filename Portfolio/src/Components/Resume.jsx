@@ -2,6 +2,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import myresume from '../assets/DakshataMERN25.pdf'
+import MernCertificate from '../../../Certificates/MERN Certificate.pdf';
+import ReactOJT from '../../../Certificates/OJT React Js.jpg';
 import { Link } from "react-router-dom";
 const Resume = () => {
   return (
@@ -100,7 +102,7 @@ const Resume = () => {
             </div>
             <div className="col-md-4">
               <h5>Mar 24 - May 24</h5>
-              <p></p>
+              <a href={ReactOJT} target="_blank" className="text-white">Certificate</a>
             </div>
           </div>
           <hr />
@@ -143,7 +145,9 @@ const Resume = () => {
               <h4>
                 Certified course in MERN Stack Developer from Apna College
               </h4>
-              <a href="https://github.com/dakshataramteke/Portfolio/blob/main/Certificates/MERN%20Certificate.pdf" target="_blank" className="text-white">Certificate</a>
+              {/* <a href="https://github.com/dakshataramteke/Portfolio/blob/main/Certificates/MERN%20Certificate.pdf" target="_blank" className="text-white">Certificate</a> */}
+              <a href={MernCertificate} target="_blank" className="text-white">Certificate</a>
+            
             </div>
           </div>
 
