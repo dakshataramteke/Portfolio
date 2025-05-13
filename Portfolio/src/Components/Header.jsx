@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import ClearAllIcon from "@mui/icons-material/ClearAll";
+import Mylogo from '../assets/images/mylogo.png'
 
 const Header = () => {
   const [btn, setBtn] = useState(true);
@@ -23,7 +24,8 @@ const Header = () => {
         <nav className="navbar navbar-expand-lg bg-white fixed-top">
           <div className="container">
             <a className="navbar-brand" to="/">
-              Dakshata
+              {/* Dakshata */}
+              <img src={Mylogo} alt="" height={"55px"} width={"180px"} />
             </a>
             <button
               className="navbar-toggler"

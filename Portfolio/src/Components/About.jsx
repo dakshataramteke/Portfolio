@@ -46,7 +46,7 @@ const About = () => {
                      MERN Stack Developer -
                         <span >Sky Vision IT Solutions</span>
                       </a>
-                      Nov 2024 - Present
+                      Nov 2024 - May 2025
                     </li>
                   <li>
                       <a href="#">

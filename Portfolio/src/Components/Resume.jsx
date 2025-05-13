@@ -82,7 +82,7 @@ const Resume = () => {
               {/* <a href=""></a> */}
             </div>
             <div className="col-md-4">
-              <h5>Nov 24 - Present</h5>
+              <h5>Nov 24 - May 2025</h5>
               <p></p>
             </div>
           </div>
