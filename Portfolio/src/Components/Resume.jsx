@@ -1,9 +1,10 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import myresume from "../assets/DakshataMERN25.pdf";
+import myresume from "../assets/Dakshata_Ramteke_Resume.pdf";
 import MernCertificate from "../../../Certificates/MERN Certificate.pdf";
 import ReactOJT from "../../../Certificates/OJT React Js.jpg";
+import SkyVisionInternship from '../../../Certificates/Internship.jpg'
 import { Link } from "react-router-dom";
 const Resume = () => {
   return (
@@ -53,7 +54,7 @@ const Resume = () => {
                 </p>{" "}
                 <hr />
                 <p>
-                  I am currently pursuing a Masters in Computer Science and a
+                  I have completed Masters in Computer Science and a
                   strong passion for web development. I am enthusiastic about my
                   skills as a professional. Proficient MERN stack developer with
                   hands-on experience in building responsive web applications
@@ -74,8 +75,8 @@ const Resume = () => {
               <p>Shri Mathuradas Mohta College of Science </p>
             </div>
             <div className="col-md-4">
-              <h5>2023- present</h5>
-              <p>CGPA: 7.2</p>
+              <h5>2023 - 2025</h5>
+              <p>CGPA: 7.3</p>
               <h5>2017-2021</h5>
               <p>Percentage : 67%</p>
             </div>
@@ -86,7 +87,7 @@ const Resume = () => {
             <div className="col-md-8">
               <h5>MERN Stack Developer</h5>
               <p>Sky Vision IT Solution, Nagpur </p>
-              <p>
+              <p className="text-justify">
                 I am working hands-on projects on web development using the MERN
                 stack, which comprises MongoDB, Express.js, React.js, and
                 Node.js. This experience not only enhanced my technical skills
@@ -97,7 +98,9 @@ const Resume = () => {
             </div>
             <div className="col-md-4">
               <h5>Nov 24 - May 2025</h5>
-              <p></p>
+              <a href={SkyVisionInternship} target="_blank" className="text-white">
+                Certificate
+              </a>
             </div>
           </div>
           <hr />
@@ -106,7 +109,7 @@ const Resume = () => {
             <div className="col-md-8">
               <h5>React JS (OJT)</h5>
               <p>RSE IT Solution, Nagpur </p>
-              <p>
+              <p className="text-justify">
                 I completed hands-on OJT in React.js for industrial-level
                 projects, such as a student website. I built dynamic, responsive
                 web applications and gained experience in state management
@@ -136,7 +139,7 @@ const Resume = () => {
                   &nbsp;Restful API
                 </li>
                 <li>
-                  <b>Database</b> : &nbsp; MY-SQL, &nbsp;MongoDB, &nbsp;Mongoose
+                  <b>Database</b> : &nbsp; MY-SQL, &nbsp;MongoDB, &nbsp;Mongoose, &nbsp;Postgresql
                 </li>
 
                 <li>
@@ -175,7 +178,7 @@ const Resume = () => {
               to={myresume}
               target="_blank"
               className="main_btn"
-              download={"DakshataMERN25.pdf"}
+              download={"Dakshata_Ramteke_Resume.pdf"}
             >
               Download CV
             </Link>

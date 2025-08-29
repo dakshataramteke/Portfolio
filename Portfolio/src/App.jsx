@@ -1,10 +1,5 @@
 import { Routes, BrowserRouter, Route } from "react-router-dom";
 import Header from "./Components/Header";
-import About from "./Components/About";
-import Resume from "./Components/Resume";
-import Project from "./Components/Project";
-import Contact from "./Components/Contact";
-import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 import Headphone from "./Components/Projects/Headphone";
 // import Spotify from "./Components/Projects/Spotify";
@@ -16,6 +11,11 @@ import "./App.css";
 import Books from "./Components/Projects/Backend/Books";
 import Wanderlust from "./Components/Projects/MERN/Wanderlust";
 import SkyConnect from "./Components/Projects/MERN/SkyConnect";
+import AboutPage from "./Pages/AboutPage";
+import ResumePage from "./Pages/ResumePage";
+import ProjectPage from "./Pages/ProjectPage";
+import ContactPage from "./Pages/ContactPage";
+import HomePage from "./Pages/HomePage";
 
 const App = () => {
   return (
@@ -23,10 +23,10 @@ const App = () => {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/project" element={<Project />}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/resume" element={<ResumePage />} />
+          <Route path="/project" element={<ProjectPage />}>
        
            </Route>
            <Route path="/headphone" element={<Headphone/>}/>
@@ -39,7 +39,7 @@ const App = () => {
            <Route path="/wanderlust" element={<Wanderlust/>}/> 
           
 
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
