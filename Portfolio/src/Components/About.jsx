@@ -14,7 +14,7 @@ const About = () => {
             
               <h2>About Me</h2>
               <p>My Name is Dakshata Ramteke, I am originally from Nagpur, I have been passionate about MERN Stack Development/ React JS Developer.</p>
-              <p>I hold a Masters Degree in Computer Science and I have completed my Bachelors Degree in Computer Science. I have a good knowledge of frontend as well as backend Development. I specialize in MERN Stack Development. I have successfully completed OJT Training in React Js and also completed some projects. I have completed MERN Stack Development from Apna College with hands-on projects.</p>
+              <p>I am currently doing Internship at Claim Genius Pvt Ltd in Full Stack Development. I hold a Masters Degree in Computer Science and I have completed my Bachelors Degree in Computer Science.I have Completed my 6 month Internship from Sky Vision IT Solutions Pvt Ltd where i gain good knowledge of frontend as well as backend Development. I specialize in MERN Stack Development. I have successfully completed OJT Training in React Js and also completed some projects. I have completed MERN Stack Development from Apna College with hands-on projects.</p>
             </div>
             <div className="pt-4">
               <ul className="nav nav-pills justify-content-center justify-content-lg-around mb-3" id="pills-tab" role="tablist">
@@ -30,11 +30,19 @@ const About = () => {
                
                 <div className="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
                   <ul className="text-start ps-0 list-unstyled">
+                    <li >
+                   <a href="#">
+                     Full Stack Developer -
+                        <span > Claim Genius Pvt Ltd</span>
+                     </a>
+                   
+                    Aug 2025 - Present
+                    </li>
                   <li >
-                      <a href="#">
+                   <a href="#">
                      MERN Stack Developer -
-                        <span >Sky Vision IT Solutions</span>
-                      </a>
+                        <span > Sky Vision IT Solutions</span>
+                     </a>
                    
                       Nov 2024 - May 2025
                     </li>
@@ -42,18 +50,18 @@ const About = () => {
                   <li>
                       <a href="#">
                         Process Associate -
-                        <span >DhanInfotech</span>
+                        <span > DhanInfotech</span>
                       </a>
                     
-                      Sept 2023-Nov 2023
+                      Sept 2023 - Nov 2023
                     </li>
                     <li>
                       <a href="#">
                         Teaching Assistance -
-                        <span >Disha Computer Institute</span>
+                        <span > Disha Computer Institute</span>
                       </a>
                      
-                      Jan 2022-Dec 2022
+                      Jan 2022 - Dec 2022
                     </li>
                    
                   </ul>
@@ -64,7 +72,7 @@ const About = () => {
                     
                     <a href='#'>
                         Master in Computer Science -
-                        <span className='text-end'>Dr S.C Gulhane Prerna College, Nagpur</span>
+                        <span className='text-end'> Dr S.C Gulhane Prerna College, Nagpur</span>
                       </a>
                     
                       <a href='#'>
@@ -87,7 +95,7 @@ const About = () => {
                     <li>
                       <a href="#">
                         Higher Secondary School - 
-                        <span>Dinanath Junior College, Nagpur</span>
+                        <span> Dinanath Junior College, Nagpur</span>
                       </a>
                       <a href="#">
                        59.38 % 

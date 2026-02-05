@@ -291,6 +291,7 @@ transition: all .2s linear;
 .skill_Section .card:hover{
     background-color: var(--bg-purple);
     color: var(--text-white);
+    cursor: pointer;
 }
 
 /* Projects  */
