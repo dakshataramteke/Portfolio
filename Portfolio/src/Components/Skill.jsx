@@ -5,7 +5,6 @@ import { FaNodeJs } from "react-icons/fa6";
 import { RiReactjsFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-import { TbBracketsAngle } from "react-icons/tb";
 import { AiOutlineDeploymentUnit } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa6";
 import { BiLogoVuejs } from "react-icons/bi";
@@ -82,13 +81,7 @@ const Skill = () => {
           </div>  
         
           </div>
-          <div className="col-6 col-md-4 col-lg-2 my-3">
-          <div className="card p-2">
-          <h4><TbBracketsAngle style={{fontSize:'3.25rem'}}/></h4>
-          <h5 style={{fontSize:'0.875rem'}}>C & C++</h5>
-          </div>
         
-          </div>
           </div>
          
           </div>
