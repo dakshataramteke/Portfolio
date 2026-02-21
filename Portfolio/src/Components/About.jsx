@@ -99,7 +99,7 @@ const About = () => {
                       </a>
                       <a href="#">
                        59.38 % 
-                        <span className='ms-5'> 2016-2017</span>
+                        <span className='ms-5'> 2016-2017 </span>
                       </a>
                      
                     </li>
