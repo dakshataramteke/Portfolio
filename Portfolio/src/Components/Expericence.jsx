@@ -6,7 +6,7 @@ const Expericence = () => {
               <ul className="nav nav-pills justify-content-center justify-content-lg-around mb-3" id="pills-tab" role="tablist">
                 
                 <li className="nav-item" role="presentation">
-                  <button className="nav-link " id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="false">Experience</button>
+                  <button className="nav-link active" id="pills-experience-tab" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" aria-selected="true">Experience</button>
                 </li>
                 <li className="nav-item" role="presentation">
                   <button className="nav-link" id="pills-education-tab" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education" aria-selected="false">Education</button>
@@ -14,7 +14,7 @@ const Expericence = () => {
               </ul>
               <div className="tab-content mt-4" id="pills-tabContent">
                
-                <div className="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+                <div className="tab-pane fade show active" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
                   <ul className="text-start ps-0 list-unstyled">
                     <li >
                    <a href="#">
